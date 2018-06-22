@@ -1,0 +1,1348 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CortenMedica\n"
+"POT-Creation-Date: 2017-12-09 13:43+0100\n"
+"PO-Revision-Date: 2017-12-09 13:44+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: inc/advanced-custom-fields-pro\n"
+
+#: email/templates/new-order.php:53 shop/cart.php:554 shop/shop.php:139
+msgid "New order"
+msgstr "Nowe zamówienie"
+
+#: email/templates/new-order.php:66 email/templates/new-order.php:84
+msgid "You have received a new order"
+msgstr "Otrzymałeś nowe zamówienie"
+
+#: email/templates/new-order.php:68 email/templates/new-order.php:87
+msgid "Your order has been received and is now being processed"
+msgstr "Twoje zamówienie zostało przyjęte do realizacji"
+
+#: email/templates/new-order.php:86 email/templates/order-completed.php:86
+msgid "Hello"
+msgstr "Witaj"
+
+#: email/templates/new-order.php:92 email/templates/order-completed.php:92
+#: shop/shop.php:777
+msgid "Order details"
+msgstr "Szczegóły zamówienia"
+
+#: email/templates/new-order.php:96 email/templates/order-completed.php:96
+msgid "Order number:"
+msgstr "Numer zamówienia:"
+
+#: email/templates/new-order.php:100 email/templates/order-completed.php:100
+#: template-parts/shop/admin/product-order/details.php:53
+msgid "Order date:"
+msgstr "Data zamówienia:"
+
+#: email/templates/new-order.php:104 email/templates/order-completed.php:104
+#: template-parts/shop/admin/product-order/details.php:58
+msgid "Payment method:"
+msgstr "Sposób płatności:"
+
+#: email/templates/new-order.php:105 email/templates/order-completed.php:105
+#: template-parts/shop/admin/product-order/details.php:60
+msgid "Bank transfer"
+msgstr "Przelew"
+
+#: email/templates/new-order.php:105 email/templates/order-completed.php:105
+#: shop/shop.php:750 template-parts/shop/admin/product-order/details.php:60
+msgid "Online payment"
+msgstr "Płatność online"
+
+#: email/templates/new-order.php:108 email/templates/order-completed.php:108
+#: template-parts/shop/admin/product-order/details.php:63
+msgid "Delivery:"
+msgstr "Dostawa"
+
+#: email/templates/new-order.php:117 email/templates/order-completed.php:117
+#: template-parts/shop/admin/product-order/details.php:146
+#: template-parts/shop/admin/user-fields/fields.php:2
+msgid "Customer details"
+msgstr "Szczegóły klienta"
+
+#: email/templates/new-order.php:121 email/templates/order-completed.php:121
+#: template-parts/shop/admin/product-order/details.php:76
+msgid "Full Name:"
+msgstr "Imię i nazwisko:"
+
+#: email/templates/new-order.php:126 email/templates/new-order.php:136
+#: email/templates/order-completed.php:126
+#: email/templates/order-completed.php:136
+#: template-parts/shop/admin/product-order/details.php:81
+msgid "NIP:"
+msgstr "NIP:"
+
+#: email/templates/new-order.php:132 email/templates/order-completed.php:132
+#: template-parts/shop/admin/product-order/details.php:86
+msgid "Company:"
+msgstr "Firma:"
+
+#: email/templates/new-order.php:141 email/templates/new-order.php:163
+#: email/templates/order-completed.php:141
+#: email/templates/order-completed.php:163
+#: template-parts/shop/admin/product-order/details.php:91
+#: template-parts/shop/admin/product-order/details.php:109
+msgid "Address:"
+msgstr "Adres:"
+
+#: email/templates/new-order.php:142 email/templates/new-order.php:164
+#: email/templates/order-completed.php:142
+#: email/templates/order-completed.php:164
+#: template-parts/shop/admin/product-order/details.php:93
+#: template-parts/shop/admin/product-order/details.php:111
+msgid "Street:"
+msgstr "ul."
+
+#: email/templates/new-order.php:145 email/templates/order-completed.php:145
+#: template-parts/shop/admin/product-order/details.php:96
+msgid "Email address:"
+msgstr "Adres email:"
+
+#: email/templates/new-order.php:149 email/templates/order-completed.php:149
+#: template-parts/shop/admin/product-order/details.php:101
+msgid "Phone number:"
+msgstr "Numer telefonu:"
+
+#: email/templates/new-order.php:158 email/templates/order-completed.php:158
+#: template-parts/shop/admin/product-order/details.php:158
+msgid "Shipping details"
+msgstr "Szczegóły wysyłki"
+
+#: email/templates/new-order.php:168 email/templates/order-completed.php:168
+#: template-parts/shop/admin/product-order/details.php:168
+msgid "Shipping to customer address"
+msgstr "Wysyłka na adres klienta"
+
+#: email/templates/new-order.php:181 email/templates/order-completed.php:181
+#: shop/shop.php:135 shop/shop.php:668 shop/shop.php:786
+msgid "Order"
+msgstr "Zamówienie"
+
+#: email/templates/new-order.php:185 email/templates/order-completed.php:185
+#: shop/shop.php:97 template-parts/shop/admin/product-order/summary.php:22
+msgid "Product"
+msgstr "Produkt"
+
+#: email/templates/new-order.php:186 email/templates/order-completed.php:186
+#: template-parts/shop/admin/product-order/summary.php:23
+msgid "Quantity"
+msgstr "Ilość"
+
+#: email/templates/new-order.php:187 email/templates/order-completed.php:187
+#: template-parts/shop/admin/product-order/summary.php:24
+msgid "Cost"
+msgstr "Koszt"
+
+#: email/templates/new-order.php:196 email/templates/new-order.php:207
+#: email/templates/new-order.php:211 email/templates/new-order.php:216
+#: email/templates/new-order.php:221 email/templates/order-completed.php:196
+#: email/templates/order-completed.php:207
+#: email/templates/order-completed.php:211
+#: email/templates/order-completed.php:216
+#: email/templates/order-completed.php:221
+#: template-parts/shop/admin/product-order/summary.php:33
+#: template-parts/shop/admin/product-order/summary.php:52
+#: template-parts/shop/admin/product-order/summary.php:64
+#: template-parts/shop/admin/product-order/summary.php:77
+#: template-parts/shop/admin/product-order/summary.php:90
+#: template-parts/shop/admin/product-order/transaction.php:29
+#: template-parts/shop/admin/product-order/transaction.php:41
+msgid "PLN"
+msgstr "zł"
+
+#: email/templates/new-order.php:206 email/templates/order-completed.php:206
+#: template-parts/shop/admin/product-order/summary.php:47
+msgid "Total"
+msgstr "Razem"
+
+#: email/templates/new-order.php:210 email/templates/order-completed.php:210
+#: template-parts/shop/admin/product-order/summary.php:59
+msgid "VAT tax"
+msgstr "Podatek VAT"
+
+#: email/templates/new-order.php:215 email/templates/order-completed.php:215
+#: template-parts/shop/admin/product-order/summary.php:72
+msgid "Shipment"
+msgstr "Wysyłka"
+
+#: email/templates/new-order.php:220 email/templates/order-completed.php:220
+#: template-parts/shop/admin/product-order/summary.php:85
+#: template-parts/shop/admin/product-order/transaction.php:24
+msgid "To pay"
+msgstr "Do zapłaty"
+
+#: email/templates/new-order.php:233 email/templates/order-completed.php:233
+#: template-parts/shop/admin/product-order/details.php:129
+msgid "Package activation code"
+msgstr "Kod aktywacyjny pakietu"
+
+#: email/templates/new-order.php:265 email/templates/order-completed.php:249
+msgid "Best regards"
+msgstr "Pozdrawiamy"
+
+#: email/templates/order-completed.php:53 shop/shop.php:851
+#: template-parts/shop/summary/online-notification.php:72
+msgid "Order Completed"
+msgstr "Zrealizowano zamówienie"
+
+#: email/templates/order-completed.php:66
+#: email/templates/order-completed.php:84
+msgid "Order has been completed"
+msgstr "Zamówienie zostało zrealizowane"
+
+#: email/templates/order-completed.php:68
+#: email/templates/order-completed.php:87
+msgid "Your order has been completed"
+msgstr "Twoje zamówienie zostało zrealizowane"
+
+#: feal/profile-page.php:4
+msgid "Account details"
+msgstr "Szczegóły konta"
+
+#: feal/profile-page.php:9
+msgid "Personal details"
+msgstr "Dane osobowe"
+
+#: feal/profile-page.php:14 shop/shop.php:72 shop/shop.php:134
+#: shop/shop.php:145
+msgid "Orders"
+msgstr "Zamówienia"
+
+#: feal/profile-page.php:26
+msgid "My account"
+msgstr "Moje konto"
+
+#: functions.php:46
+msgid "Primary Menu"
+msgstr "Menu główne"
+
+#: functions.php:47
+msgid "Business Menu"
+msgstr "Menu biznes"
+
+#: functions.php:48
+msgid "E-Advice Menu"
+msgstr "Menu E-Poradnik"
+
+#: functions.php:49
+msgid "Footer Menu 1"
+msgstr "Menu w stopce 1"
+
+#: functions.php:50
+msgid "Footer Menu 2"
+msgstr "Menu w stopce 2"
+
+#: functions.php:51
+msgid "Footer Menu 3"
+msgstr "Menu w stopce 3"
+
+#: functions.php:52
+msgid "Footer Menu 4"
+msgstr "Menu w stopce 4"
+
+#: functions.php:53
+msgid "Footer Menu 5"
+msgstr "Menu w stopce 5"
+
+#: functions.php:213
+#, php-format
+msgid "Page %s"
+msgstr "Strona %s"
+
+#: functions.php:260 functions.php:261
+msgid "News"
+msgstr "Aktualności"
+
+#: functions.php:262
+msgid "Add new post"
+msgstr "Dodaj nowy wpis"
+
+#: functions.php:323
+msgid "Institutions page"
+msgstr "Strona placówek"
+
+#: functions.php:324
+msgid "Doctors page"
+msgstr "Strona lekarzy"
+
+#: functions.php:326
+msgid "Job offers page"
+msgstr "Strona z ofertami pracy"
+
+#: functions.php:327
+msgid "Offers page - services groups list"
+msgstr "Strona oferty - lista grup usług"
+
+#: functions.php:328
+msgid "Services pricelist page"
+msgstr "Strona z cennikiem usług"
+
+#: functions.php:329
+msgid "E-advice main page"
+msgstr "Strona główna E-Poradnika"
+
+#: functions.php:330
+msgid "Products page"
+msgstr "Strona produktów"
+
+#: functions.php:331
+msgid "Packages page"
+msgstr "Strona pakietów"
+
+#: functions.php:332
+msgid "Shop main page"
+msgstr "Strona główna sklepu"
+
+#: functions.php:333
+msgid "Shop cart page"
+msgstr "Strona koszyka"
+
+#: functions.php:334
+msgid "Shop checkout page"
+msgstr "Strona realizacji zamówienia"
+
+#: functions/acf.php:76 functions/acf.php:77
+msgid "Miscellaneous"
+msgstr "Różne"
+
+#: functions/acf.php:86
+msgid "Header"
+msgstr "Nagłówek"
+
+#: functions/acf.php:87
+msgid "Social Media"
+msgstr "Social Media"
+
+#: functions/acf.php:88
+msgid "Google Maps"
+msgstr "Mapy Google"
+
+#: functions/acf.php:100 functions/acf.php:101
+msgid "Shop - Settings"
+msgstr "Sklep - Ustawienia"
+
+#: functions/acf.php:110 shop/shop.php:63 shop/shop.php:96 shop/shop.php:107
+msgid "Products"
+msgstr "Produkty"
+
+#: functions/acf.php:111
+msgid "Shipping"
+msgstr "Wysyłka"
+
+#: functions/acf.php:112
+msgid "Payment"
+msgstr "Płatności"
+
+#: functions/cpt.php:50 functions/cpt.php:51 functions/cpt.php:61
+msgid "Advice"
+msgstr "Porady"
+
+#: functions/cpt.php:52
+msgid "Add advice"
+msgstr "Dodaj poradę"
+
+#: functions/cpt.php:53
+msgid "Add new advice"
+msgstr "Dodaj nową poradę"
+
+#: functions/cpt.php:54
+msgid "Edit advice"
+msgstr "Edytuj poradę"
+
+#: functions/cpt.php:55
+msgid "New advice"
+msgstr "Nowa porada"
+
+#: functions/cpt.php:56 functions/cpt.php:121 functions/cpt.php:162
+#: functions/cpt.php:203 functions/cpt.php:299 functions/cpt.php:368
+#: functions/cpt.php:406 functions/cpt.php:444 shop/shop.php:102
+#: shop/shop.php:140 shop/shop.php:232 shop/shop.php:332
+msgid "View"
+msgstr "Zobacz"
+
+#: functions/cpt.php:57 functions/cpt.php:122 functions/cpt.php:163
+#: functions/cpt.php:204 functions/cpt.php:300 functions/cpt.php:369
+#: functions/cpt.php:407 functions/cpt.php:445 shop/shop.php:103
+#: shop/shop.php:141 shop/shop.php:233 shop/shop.php:333
+msgid "Search"
+msgstr "Szukaj"
+
+#: functions/cpt.php:58 functions/cpt.php:123 functions/cpt.php:164
+#: functions/cpt.php:205 functions/cpt.php:301 functions/cpt.php:370
+#: functions/cpt.php:408 functions/cpt.php:446 shop/shop.php:104
+#: shop/shop.php:142 shop/shop.php:234 shop/shop.php:334
+msgid "Nothing found"
+msgstr "Nic nie znaleziono"
+
+#: functions/cpt.php:59 functions/cpt.php:124 functions/cpt.php:165
+#: functions/cpt.php:206 functions/cpt.php:302 functions/cpt.php:371
+#: functions/cpt.php:409 functions/cpt.php:447 shop/shop.php:105
+#: shop/shop.php:143 shop/shop.php:235 shop/shop.php:335
+msgid "Trash is empty"
+msgstr "Kosz jest pusty"
+
+#: functions/cpt.php:60
+msgid "Advice:"
+msgstr "Porady:"
+
+#: functions/cpt.php:92
+msgid "Categories - Advice"
+msgstr "Kategorie - Porady"
+
+#: functions/cpt.php:93 shop/shop.php:168 shop/shop.php:265
+msgid "Category"
+msgstr "Kategoria"
+
+#: functions/cpt.php:94 shop/shop.php:64 shop/shop.php:69 shop/shop.php:169
+#: shop/shop.php:266
+msgid "Categories"
+msgstr "Kategorie"
+
+#: functions/cpt.php:95 shop/shop.php:170 shop/shop.php:267
+msgid "All categories"
+msgstr "Wszystkie kategorie"
+
+#: functions/cpt.php:96 shop/shop.php:171 shop/shop.php:268
+msgid "Edit category"
+msgstr "Edytuj kategorię"
+
+#: functions/cpt.php:97 shop/shop.php:172 shop/shop.php:269
+msgid "View category"
+msgstr "Zobacz kategorię"
+
+#: functions/cpt.php:98 shop/shop.php:173 shop/shop.php:270
+msgid "Update category"
+msgstr "Aktualizuj kategorię"
+
+#: functions/cpt.php:99 shop/shop.php:174 shop/shop.php:271
+msgid "Add new category"
+msgstr "Dodaj nową kategorię"
+
+#: functions/cpt.php:100 shop/shop.php:175 shop/shop.php:272
+msgid "New category name"
+msgstr "Nazwa nowej kategorii"
+
+#: functions/cpt.php:101 shop/shop.php:176 shop/shop.php:273
+msgid "Parent category"
+msgstr "Kategoria nadrzędna"
+
+#: functions/cpt.php:102 shop/shop.php:177 shop/shop.php:274
+msgid "Parent category:"
+msgstr "Kategoria nadrzędna:"
+
+#: functions/cpt.php:103 shop/shop.php:178 shop/shop.php:275
+msgid "Search categories"
+msgstr "Szukaj kategorii"
+
+#: functions/cpt.php:104 shop/shop.php:179 shop/shop.php:276
+msgid "Popular categories"
+msgstr "Popularne kategorie"
+
+#: functions/cpt.php:115 functions/cpt.php:126
+msgid "Institutions"
+msgstr "Placówki"
+
+#: functions/cpt.php:116
+msgid "Institution"
+msgstr "Placówka"
+
+#: functions/cpt.php:117
+msgid "Add institution"
+msgstr "Dodaj placówkę"
+
+#: functions/cpt.php:118
+msgid "Add new institution"
+msgstr "Dodaj nową placówkę"
+
+#: functions/cpt.php:119
+msgid "Edit institution"
+msgstr "Edytuj placówkę"
+
+#: functions/cpt.php:120
+msgid "New institution"
+msgstr "Nowa placówka"
+
+#: functions/cpt.php:125
+msgid "Institutions:"
+msgstr "Placówki:"
+
+#: functions/cpt.php:156 functions/cpt.php:167
+msgid "Services"
+msgstr "Usługi"
+
+#: functions/cpt.php:157
+msgid "Service"
+msgstr "Usługa"
+
+#: functions/cpt.php:158
+msgid "Add service"
+msgstr "Dodaj usługę"
+
+#: functions/cpt.php:159
+msgid "Add new service"
+msgstr "Dodaj nową usługę"
+
+#: functions/cpt.php:160
+msgid "Edit service"
+msgstr "Edytuj usługę"
+
+#: functions/cpt.php:161
+msgid "New service"
+msgstr "Nowa usługa"
+
+#: functions/cpt.php:166
+msgid "Services:"
+msgstr "Usługi:"
+
+#: functions/cpt.php:197 functions/cpt.php:208
+msgid "Clinics"
+msgstr "Poradnie"
+
+#: functions/cpt.php:198
+msgid "Clinic"
+msgstr "Poradnia"
+
+#: functions/cpt.php:199
+msgid "Add clinic"
+msgstr "Dodaj poradnię"
+
+#: functions/cpt.php:200
+msgid "Add new clinic"
+msgstr "Dodaj nową poradnię"
+
+#: functions/cpt.php:201
+msgid "Edit clinic"
+msgstr "Edytuj poradnię"
+
+#: functions/cpt.php:202
+msgid "New clinic"
+msgstr "Nowa poradnia"
+
+#: functions/cpt.php:207
+msgid "Clinics:"
+msgstr "Poradnie:"
+
+#: functions/cpt.php:238 functions/cpt.php:240
+msgid "Cities"
+msgstr "Miasta"
+
+#: functions/cpt.php:239 template-parts/shop/admin/user-fields/fields.php:84
+#: template-parts/shop/admin/user-fields/fields.php:148
+msgid "City"
+msgstr "Miasta"
+
+#: functions/cpt.php:241
+msgid "All cities"
+msgstr "Wszystkie miasta"
+
+#: functions/cpt.php:242
+msgid "Edit city"
+msgstr "Edytuj miasto"
+
+#: functions/cpt.php:243
+msgid "View city"
+msgstr "Zobacz miasto"
+
+#: functions/cpt.php:244
+msgid "Update city"
+msgstr "Aktualizuj miasto"
+
+#: functions/cpt.php:245
+msgid "Add new city"
+msgstr "Dodaj nowe miasto"
+
+#: functions/cpt.php:246
+msgid "New city name"
+msgstr "Nazwa nowego miasta"
+
+#: functions/cpt.php:247
+msgid "Parent city"
+msgstr "Nadrzędne miasto"
+
+#: functions/cpt.php:248
+msgid "Parent city:"
+msgstr "Nadrzędne miasto:"
+
+#: functions/cpt.php:249
+msgid "Search cities"
+msgstr "Szukaj miasta"
+
+#: functions/cpt.php:250
+msgid "Popular cities"
+msgstr "Popularne miasta"
+
+#: functions/cpt.php:266 functions/cpt.php:268
+msgid "Services Groups"
+msgstr "Grupy usług"
+
+#: functions/cpt.php:267
+msgid "Services Group"
+msgstr "Grupa usług"
+
+#: functions/cpt.php:269
+msgid "All groups"
+msgstr "Wszystkie grupy"
+
+#: functions/cpt.php:270
+msgid "Edit group"
+msgstr "Edytuj grupę"
+
+#: functions/cpt.php:271
+msgid "View group"
+msgstr "Zobacz grupę"
+
+#: functions/cpt.php:272
+msgid "Update group"
+msgstr "Aktualizuj grupę"
+
+#: functions/cpt.php:273
+msgid "Add new group"
+msgstr "Dodaj nową grupę"
+
+#: functions/cpt.php:274
+msgid "New group name"
+msgstr "Nazwa nowej grupy"
+
+#: functions/cpt.php:275
+msgid "Parent group"
+msgstr "Grupa nadrzędna"
+
+#: functions/cpt.php:276
+msgid "Parent group:"
+msgstr "Grupa nadrzędna:"
+
+#: functions/cpt.php:277
+msgid "Search groups"
+msgstr "Szukaj grup"
+
+#: functions/cpt.php:278
+msgid "Popular groups"
+msgstr "Popularne grupy"
+
+#: functions/cpt.php:293 functions/cpt.php:304
+msgid "Doctors"
+msgstr "Lekarze"
+
+#: functions/cpt.php:294
+msgid "Doctor"
+msgstr "Lekarz"
+
+#: functions/cpt.php:295
+msgid "Add doctor"
+msgstr "Dodaj lekarza"
+
+#: functions/cpt.php:296
+msgid "Add new doctor"
+msgstr "Dodaj nowego lekarza"
+
+#: functions/cpt.php:297
+msgid "Edit doctor"
+msgstr "Edytuj lekarza"
+
+#: functions/cpt.php:298
+msgid "New doctor"
+msgstr "Noey lekarz"
+
+#: functions/cpt.php:303
+msgid "Doctors:"
+msgstr "Lekarze:"
+
+#: functions/cpt.php:334 functions/cpt.php:336
+msgid "Specializations"
+msgstr "Specjalizacje"
+
+#: functions/cpt.php:335
+msgid "Specialization"
+msgstr "Specjalizacja"
+
+#: functions/cpt.php:337
+msgid "All specializations"
+msgstr "Wszystkie specjalizacje"
+
+#: functions/cpt.php:338
+msgid "Edit specialization"
+msgstr "Edytuj specjalizację"
+
+#: functions/cpt.php:339
+msgid "View specialization"
+msgstr "Zobacz specjalizację"
+
+#: functions/cpt.php:340
+msgid "Update specialization"
+msgstr "Aktualizuj specjalizację"
+
+#: functions/cpt.php:341
+msgid "Add new specialization"
+msgstr "Dodaj nową specjalizację"
+
+#: functions/cpt.php:342
+msgid "New specialization name"
+msgstr "Nazwa nowej specjalizacji"
+
+#: functions/cpt.php:343
+msgid "Parent specialization"
+msgstr "Nadrzędna specjalizacja"
+
+#: functions/cpt.php:344
+msgid "Parent specialization:"
+msgstr "Nadrzędna specjalizacja:"
+
+#: functions/cpt.php:345
+msgid "Search specializations"
+msgstr "Szukaj specjalizacji"
+
+#: functions/cpt.php:346
+msgid "Popular specializations"
+msgstr "Popularne specjalizacje"
+
+#: functions/cpt.php:362 functions/cpt.php:373
+msgid "Widgets"
+msgstr "Widgety"
+
+#: functions/cpt.php:363
+msgid "Widget"
+msgstr "Widget"
+
+#: functions/cpt.php:364
+msgid "Add widget"
+msgstr "Dodaj widget"
+
+#: functions/cpt.php:365
+msgid "Add new widget"
+msgstr "Dodaj nowy widget"
+
+#: functions/cpt.php:366
+msgid "Edit widget"
+msgstr "Edytuj widget"
+
+#: functions/cpt.php:367
+msgid "New widget"
+msgstr "Nowy widget"
+
+#: functions/cpt.php:372
+msgid "Widgets:"
+msgstr "Widgety:"
+
+#: functions/cpt.php:400 functions/cpt.php:411
+msgid "Contact branches"
+msgstr "Działy kontaktu"
+
+#: functions/cpt.php:401
+msgid "Contact branch"
+msgstr "Dział kontaktu"
+
+#: functions/cpt.php:402
+msgid "Add branch"
+msgstr "Dodaj dział"
+
+#: functions/cpt.php:403
+msgid "Add new branch"
+msgstr "Dodaj nowy dział"
+
+#: functions/cpt.php:404
+msgid "Edit branch"
+msgstr "Edytuj dział"
+
+#: functions/cpt.php:405
+msgid "New branch"
+msgstr "Nowy dział"
+
+#: functions/cpt.php:410
+msgid "Contact branches:"
+msgstr "Działy kontaktu"
+
+#: functions/cpt.php:438 functions/cpt.php:449
+msgid "Job offers"
+msgstr "Oferty pracy"
+
+#: functions/cpt.php:439
+msgid "Job offer"
+msgstr "Oferta pracy"
+
+#: functions/cpt.php:440
+msgid "Add job offer"
+msgstr "Dodaj ofertę pracy"
+
+#: functions/cpt.php:441
+msgid "Add new job offer"
+msgstr "Dodaj nową ofertę pracy"
+
+#: functions/cpt.php:442
+msgid "Edit job offer"
+msgstr "Edytuj ofertę pracy"
+
+#: functions/cpt.php:443
+msgid "New job offer"
+msgstr "Nowa oferta pracy"
+
+#: functions/cpt.php:448
+msgid "Job offers:"
+msgstr "Oferty pracy:"
+
+#: functions/cpt.php:479 functions/cpt.php:481
+msgid "Job types"
+msgstr "Typy pracy"
+
+#: functions/cpt.php:480
+msgid "Job type"
+msgstr "Typ pracy"
+
+#: functions/cpt.php:482
+msgid "All job types"
+msgstr "Wszystkie typy pracy"
+
+#: functions/cpt.php:483
+msgid "Edit job type"
+msgstr "Edytuj typ pracy"
+
+#: functions/cpt.php:484
+msgid "View job type"
+msgstr "Zobacz typ pracy"
+
+#: functions/cpt.php:485
+msgid "Update job type"
+msgstr "Aktualizuj typ pracy"
+
+#: functions/cpt.php:486
+msgid "Add new job type"
+msgstr "Dodaj nowy typ pracy"
+
+#: functions/cpt.php:487
+msgid "New job type name"
+msgstr "Nazwa nowego typu pracy"
+
+#: functions/cpt.php:488
+msgid "Parent job type"
+msgstr "Nadrzędny typ pracy"
+
+#: functions/cpt.php:489
+msgid "Parent job type:"
+msgstr "Nadrzędny typ pracy:"
+
+#: functions/cpt.php:490
+msgid "Search job types"
+msgstr "Szukaj typu pracy"
+
+#: functions/cpt.php:491
+msgid "Popular job types"
+msgstr "Popularne typy pracy"
+
+#: functions/theme-functions.1.php:684
+msgid "Blog description - Career"
+msgstr "Opis - Kariera"
+
+#: functions/theme-functions.php:788
+msgid "Blog description - Business"
+msgstr "Opis - Biznes"
+
+#: search.php:14
+#, php-format
+msgid "Search results for: %s"
+msgstr "Wyniki wyszukiwania dla: %s"
+
+#: shop/my-account.php:196
+msgid "An error occurred while saving data. Try again later."
+msgstr "Wystąpił błąd podczas zapisywania danych. Spróbuj ponownie później."
+
+#: shop/shop.php:62
+msgid "Shop"
+msgstr "Sklep"
+
+#: shop/shop.php:65 shop/shop.php:196 shop/shop.php:198
+msgid "Manufacturers"
+msgstr "Producenci"
+
+#: shop/shop.php:68 shop/shop.php:226 shop/shop.php:237
+msgid "Packages"
+msgstr "Pakiety"
+
+#: shop/shop.php:73 shop/shop.php:326 shop/shop.php:337
+msgid "Shipment methods"
+msgstr "Sposoby wysyłki"
+
+#: shop/shop.php:98
+msgid "Add product"
+msgstr "Dodaj produkt"
+
+#: shop/shop.php:99
+msgid "Add new product"
+msgstr "Dodaj nowy produkt"
+
+#: shop/shop.php:100
+msgid "Edit product"
+msgstr "Edytuj produkt"
+
+#: shop/shop.php:101
+msgid "New product"
+msgstr "Nowy produkt"
+
+#: shop/shop.php:106
+msgid "Products:"
+msgstr "Produkty:"
+
+#: shop/shop.php:136
+msgid "Add order"
+msgstr "Dodaj zamówienie"
+
+#: shop/shop.php:137
+msgid "Add new order"
+msgstr "Dodaj nowe zamówienie"
+
+#: shop/shop.php:138
+msgid "Edit order"
+msgstr "Edytuj zamówienie"
+
+#: shop/shop.php:144
+msgid "Orders:"
+msgstr "Zamówienia"
+
+#: shop/shop.php:167
+msgid "Categories - Products"
+msgstr "Kategorie - Produkty"
+
+#: shop/shop.php:197
+msgid "Manufacturer"
+msgstr "Producent"
+
+#: shop/shop.php:199
+msgid "All manufacturers"
+msgstr "Wszyscy producenci"
+
+#: shop/shop.php:200
+msgid "Edit manufacturer"
+msgstr "Edytuj producenta"
+
+#: shop/shop.php:201
+msgid "View manufacturer"
+msgstr "Zobacz producenta"
+
+#: shop/shop.php:202
+msgid "Update manufacturer"
+msgstr "Aktualizuj producenta"
+
+#: shop/shop.php:203
+msgid "Add new manufacturer"
+msgstr "Dodaj nowego producenta"
+
+#: shop/shop.php:204
+msgid "New manufacturer name"
+msgstr "Nazwa nowego producenta"
+
+#: shop/shop.php:205
+msgid "Parent manufacturer"
+msgstr "Nadrzędny producent"
+
+#: shop/shop.php:206
+msgid "Parent manufacturer:"
+msgstr "Nadrzędny producent:"
+
+#: shop/shop.php:207
+msgid "Search manufacturers"
+msgstr "Szukaj producentów"
+
+#: shop/shop.php:208
+msgid "Popular manufacturers"
+msgstr "Popularni producenci"
+
+#: shop/shop.php:209
+msgid "No manufacturers found"
+msgstr "Nie znaleziono producentów"
+
+#: shop/shop.php:227
+msgid "Package"
+msgstr "Pakiet"
+
+#: shop/shop.php:228
+msgid "Add package"
+msgstr "Dodaj pakiet"
+
+#: shop/shop.php:229
+msgid "Add new package"
+msgstr "Dodaj nowy pakiet"
+
+#: shop/shop.php:230
+msgid "Edit package"
+msgstr "Edytuj pakiet"
+
+#: shop/shop.php:231
+msgid "New package"
+msgstr "Nowy pakiet"
+
+#: shop/shop.php:236
+msgid "Packages:"
+msgstr "Pakiety"
+
+#: shop/shop.php:264
+msgid "Categories - Packages"
+msgstr "Kategorie - Pakiety"
+
+#: shop/shop.php:327
+msgid "Shipment method"
+msgstr "Sposób wysyłki"
+
+#: shop/shop.php:328
+msgid "Add shipment method"
+msgstr "Dodaj sposób wysyłki"
+
+#: shop/shop.php:329
+msgid "Add new shipment method"
+msgstr "Dodaj nowy sposób wysyłki"
+
+#: shop/shop.php:330
+msgid "Edit shipment method"
+msgstr "Edytuj sposób wysyłki"
+
+#: shop/shop.php:331
+msgid "New shipment method"
+msgstr "Nowy sposób wysyłki"
+
+#: shop/shop.php:336
+msgid "Shipment methods:"
+msgstr "Sposoby wysyłki:"
+
+#: shop/shop.php:576
+msgid "Recommended"
+msgstr "Rekomendowane"
+
+#: shop/shop.php:610
+msgid "Active"
+msgstr "Akywny"
+
+#: shop/shop.php:611
+msgid "Cost (PLN)"
+msgstr "Koszt (PLN)"
+
+#: shop/shop.php:612
+msgid "Default"
+msgstr "Domyślny"
+
+#: shop/shop.php:669
+msgid "Order date"
+msgstr "Data zamówienia"
+
+#: shop/shop.php:670
+msgid "Order total"
+msgstr "Wartość zamówienia"
+
+#: shop/shop.php:671 template-parts/shop/admin/product-order/transaction.php:36
+msgid "Paid"
+msgstr "Zapłacono"
+
+#: shop/shop.php:672
+msgid "Payment method"
+msgstr "Sposób płatności"
+
+#: shop/shop.php:673 template-parts/shop/admin/product-order/settings.php:9
+msgid "Order status"
+msgstr "Status zamówienia"
+
+#: shop/shop.php:709
+msgid "Edit "
+msgstr "Edytuj"
+
+#: shop/shop.php:709
+msgid "Edit"
+msgstr "Edytuj"
+
+#: shop/shop.php:712
+msgid "Move "
+msgstr "Przenieś"
+
+#: shop/shop.php:712
+msgid "to trash "
+msgstr "do kosza"
+
+#: shop/shop.php:712
+msgid "Trash"
+msgstr "Do kosza"
+
+#: shop/shop.php:747
+msgid "Bank trasfer"
+msgstr "Przelew"
+
+#: shop/shop.php:795
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: shop/shop.php:804
+msgid "Payment details"
+msgstr "Szczegóły płatności"
+
+#: shop/shop.php:1338
+msgid "New"
+msgstr "Nowe"
+
+#: shop/shop.php:1341
+msgid "In progress"
+msgstr "W trakcie realizacji"
+
+#: shop/shop.php:1344
+msgid "Completed"
+msgstr "Zrealizowane"
+
+#: shop/shop.php:1347
+msgid "Canceled"
+msgstr "Anulowane"
+
+#: shop/shop.php:1350
+msgid "Withheld (waiting for payment)"
+msgstr "Wsztrzymane (oczekuje na płatność)"
+
+#: shop/shop.php:1361
+msgid "Sent"
+msgstr "Wysłane"
+
+#: template-parts/shop/admin/product-order/details.php:38
+msgid "Guest / not registered"
+msgstr "Gość / niezarejestrowany"
+
+#: template-parts/shop/admin/product-order/details.php:68
+msgid "Customer:"
+msgstr "Klient:"
+
+#: template-parts/shop/admin/product-order/details.php:88
+msgid "Name: "
+msgstr "Nazwa:"
+
+#: template-parts/shop/admin/product-order/details.php:88
+msgid "NIP: "
+msgstr "NIP:"
+
+#: template-parts/shop/admin/product-order/details.php:124
+msgid "Order no"
+msgstr "Zamówienie nr"
+
+#: template-parts/shop/admin/product-order/details.php:135
+msgid "General information"
+msgstr "Ogólne informacje"
+
+#: template-parts/shop/admin/product-order/settings.php:20
+msgid "Move to trash"
+msgstr "Przenieś do kosza"
+
+#: template-parts/shop/admin/product-order/settings.php:24
+#: template-parts/shop/admin/product-order/settings.php:25
+msgid "Update"
+msgstr "Zaktualizuj"
+
+#: template-parts/shop/admin/product-order/summary.php:41
+msgid "Summary"
+msgstr "Podsumowanie"
+
+#: template-parts/shop/admin/product-order/transaction.php:49
+msgid "Transaction ID"
+msgstr "ID transakcji"
+
+#: template-parts/shop/admin/user-fields/fields.php:11
+msgid "Customer type"
+msgstr "Rodzaj klienta"
+
+#: template-parts/shop/admin/user-fields/fields.php:15
+msgid "Natural person"
+msgstr "Osoba fizyczna"
+
+#: template-parts/shop/admin/user-fields/fields.php:16
+msgid "Company"
+msgstr "Firma"
+
+#: template-parts/shop/admin/user-fields/fields.php:23
+msgid "Company name"
+msgstr "Nazwa firmy"
+
+#: template-parts/shop/admin/user-fields/fields.php:32
+msgid "Company NIP"
+msgstr "NIP firmy"
+
+#: template-parts/shop/admin/user-fields/fields.php:41
+msgid "Phone number"
+msgstr "Numer telefonu"
+
+#: template-parts/shop/admin/user-fields/fields.php:50
+msgid "NIP"
+msgstr "NIP"
+
+#: template-parts/shop/admin/user-fields/fields.php:59
+msgid "Address details"
+msgstr "Dane adresowe"
+
+#: template-parts/shop/admin/user-fields/fields.php:66
+#: template-parts/shop/admin/user-fields/fields.php:130
+msgid "Street"
+msgstr "Ulica"
+
+#: template-parts/shop/admin/user-fields/fields.php:75
+#: template-parts/shop/admin/user-fields/fields.php:139
+msgid "Number"
+msgstr "Numer"
+
+#: template-parts/shop/admin/user-fields/fields.php:93
+#: template-parts/shop/admin/user-fields/fields.php:157
+msgid "Postcode"
+msgstr "Kod pocztowy"
+
+#: template-parts/shop/admin/user-fields/fields.php:102
+#: template-parts/shop/admin/user-fields/fields.php:166
+msgid "Country"
+msgstr "Kraj"
+
+#: template-parts/shop/admin/user-fields/fields.php:111
+msgid "Shipping address"
+msgstr "Adres wysyłki"
+
+#: template-parts/shop/admin/user-fields/fields.php:118
+msgid "Ship to different address"
+msgstr "Wysyłaj na inny adres"
+
+#: template-parts/shop/admin/user-fields/fields.php:122
+msgid "Yes"
+msgstr "Tak"
+
+#: template-parts/shop/admin/user-fields/fields.php:123
+msgid "No"
+msgstr "Nie"
+
+#: template-parts/shop/my-account/account-details.php:9
+msgid "Login (cannot be changed)"
+msgstr "Login (nie może zostać zmieniony)"
+
+#: template-parts/shop/my-account/account-details.php:13
+msgid "Email"
+msgstr "Email"
+
+#: template-parts/shop/my-account/account-details.php:17
+msgid "Password"
+msgstr "Hasło"
+
+#: template-parts/shop/my-account/account-details.php:21
+msgid "Repeat password"
+msgstr "Powtórz hasło"
+
+#: template-parts/shop/my-account/account-details.php:25
+msgid "Password hint"
+msgstr "Wskazówka do hasła"
+
+#: template-parts/shop/my-account/account-details.php:27
+msgid "Password must contain:"
+msgstr "Hasło musi zawierać:"
+
+#: template-parts/shop/my-account/account-details.php:29
+msgid "at least 8 characters"
+msgstr "co najmniej 8 znaków"
+
+#: template-parts/shop/my-account/account-details.php:30
+msgid "at least one lower case letter"
+msgstr "co najmniej jedną małą literę"
+
+#: template-parts/shop/my-account/account-details.php:31
+msgid "at least one uppercase letter"
+msgstr "co najmniej jedną dużą literę"
+
+#: template-parts/shop/my-account/account-details.php:32
+msgid "at least one number"
+msgstr "co najmniej jedną cyfrę"
+
+#: template-parts/shop/my-account/account-details.php:33
+msgid "at least one special character"
+msgstr "co najmniej jeden znak specjalny"
+
+#: template-parts/shop/my-account/account-details.php:38
+msgid "Save"
+msgstr "Zapisz"
+
+#: template-parts/shop/my-account/account-details.php:45
+msgid "You have no access to this page"
+msgstr "Nie masz dostępu do tej strony"
+
+#: template-parts/shop/my-account/orders-details-single.php:52
+#: template-parts/shop/my-account/orders-details-single.php:70
+msgid "ul."
+msgstr ""
+
+#~ msgid "Customer Information"
+#~ msgstr "Informacje o kliencie"
+
+#~ msgid "Career Menu"
+#~ msgstr "Menu Kariera"
+
+#~ msgid "Career page - This page and its subpages will show career menu"
+#~ msgstr ""
+#~ "Strona kariera - Ta strona oraz jej podrzędne strony będą wyświetlać menu "
+#~ "\"kariera\""
+
+#~ msgid ""
+#~ "E-advice page - This page and its subpages will show e-advice submenu"
+#~ msgstr ""
+#~ "Strona E-Poradnika - Ta strona oraz jej podrzędne strony będą wyświetlać "
+#~ "podmenu \"e-poradnik\""
+
+#~ msgid "The page you are looking for, does not exist!"
+#~ msgstr "Strona, której szukasz, nie istnieje!"
+
+#~ msgid "Search..."
+#~ msgstr "Szukaj..."
+
+#~ msgid "Read more"
+#~ msgstr "Czytaj więcej"
+
+#~ msgid ""
+#~ "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+#~ msgstr ""
+#~ "Gotowy aby opublikować pierwszy wpis? <a href=\"%1$s\">Kliknij tutaj</a>."
+
+#~ msgid ""
+#~ "Unfortunately, the searched words have not been found. Try again using "
+#~ "different ones."
+#~ msgstr ""
+#~ "Niestety wyszukiwane słowa nie zostały znalezione. Spróbuj ponownie "
+#~ "używająć innych."
+
+#~ msgid ""
+#~ "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+#~ "searching can help."
+#~ msgstr ""
+#~ "Wygląda na to, że nie możemy znaleźć tego, czego szukasz. Być może "
+#~ "wyszukiwanie pomoże."
+
+#~ msgid "Sliders"
+#~ msgstr "Slajdery"
+
+#~ msgid "Slider"
+#~ msgstr "Slajder"
+
+#~ msgid "Add slider"
+#~ msgstr "Dodaj slajder"
+
+#~ msgid "Add new slider"
+#~ msgstr "Dodaj nowy slajder"
+
+#~ msgid "Edit slider"
+#~ msgstr "Edytuj slajder"
+
+#~ msgid "New slider"
+#~ msgstr "Nowy slajder"
+
+#~ msgid "Sliders:"
+#~ msgstr "Slajdery:"
+
+#~ msgid "General"
+#~ msgstr "Ogólne"
+
+#~ msgid "The page you are looking for does not exist!"
+#~ msgstr "Strona, której szukasz, nie istnieje!"
+
+#~ msgid "Theme options"
+#~ msgstr "Opcje szablonu"

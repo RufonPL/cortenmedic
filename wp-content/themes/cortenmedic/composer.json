@@ -1,0 +1,6 @@
+{
+    "name": "user/cortenmedic",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}

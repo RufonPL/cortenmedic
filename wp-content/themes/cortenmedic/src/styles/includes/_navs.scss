@@ -1,0 +1,113 @@
+.nav {
+  margin-bottom: 0;
+  padding-left: 0; // Override default ul/ol
+  list-style: none;
+  @include clearfix;
+
+  > li {
+    position: relative;
+    display: block;
+
+    > a {
+      position: relative;
+      display: block;
+      padding: $nav-link-padding;
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        background-color: $bg-transparent;
+      }
+    }
+
+    // Disabled state sets text to gray and nukes hover/tab effects
+    &.disabled > a {
+      color: $nav-disabled-link-color;
+
+      &:hover,
+      &:focus {
+        color: $nav-disabled-link-hover-color;
+        text-decoration: none;
+        background-color: transparent;
+        cursor: $cursor-disabled;
+      }
+    }
+  }
+
+  // Open dropdowns
+  .open > a {
+    &,
+    &:hover,
+    &:focus {
+      background-color: $nav-link-hover-bg;
+      border-color: $link-color;
+    }
+  }
+
+  // Nav dividers (deprecated with v3.0.1)
+  //
+  // This should have been removed in v3 with the dropping of `.nav-list`, but
+  // we missed it. We don't currently support this anywhere, but in the interest
+  // of maintaining backward compatibility in case you use it, it's deprecated.
+  .nav-divider {
+    @include nav-divider;
+  }
+
+  // Prevent IE8 from misplacing imgs
+  //
+  // See https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
+  > li > a > img {
+    max-width: none;
+  }
+}
+
+.nav-inline {
+  > li {
+    display: inline-block;
+  }
+}
+
+// .nav-tabs {
+//   border-bottom: none;
+
+//   > li {
+//     float: none;
+//     // Make the list-items overlay the bottom border
+//     margin-bottom: 0;
+
+//     // Actual tabs (as links)
+//     > a {
+//       margin-right: 2px;
+//       line-height: $line-height-base;
+//       border: none;
+//       border-radius: $border-radius-base $border-radius-base 0 0;
+//       &:hover {
+//         border-color: $nav-tabs-link-hover-border-color $nav-tabs-link-hover-border-color $nav-tabs-border-color;
+//       }
+      
+//       &:before {
+//         margin-right: 8px;
+//         content: '\f0da';
+//         font-size: 15px;
+//         font-family: 'FontAwesome';
+//       }
+//     }
+
+//     // Active state, and its :hover to override normal :hover
+//     &.active > a {
+//       &,
+//       &:hover,
+//       &:focus {
+//         color: $nav-tabs-active-link-hover-color;
+//         background-color: $nav-tabs-active-link-hover-bg;
+//         border: none;
+//         border-bottom-color: transparent;
+//         cursor: default;
+//       }
+//     }
+//   }
+//   // pulling this in mainly for less shorthand
+//   &.nav-justified {
+//     @extend .nav-justified;
+//     @extend .nav-tabs-justified;
+//   }
+// }

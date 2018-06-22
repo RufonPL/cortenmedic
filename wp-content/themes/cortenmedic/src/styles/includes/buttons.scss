@@ -1,0 +1,150 @@
+.btn {
+  display: inline-block;
+  margin-bottom: 0; // For input.btn
+  font-weight: $btn-font-weight;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  border: none;
+  white-space: nowrap;
+  @include button-size($padding-large-vertical, $padding-large-horizontal, $font-size-small, $line-height-md, $btn-border-radius-base);
+  @include user-select(none);
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+
+  &,
+  &:active,
+  &.active {
+    &:focus,
+    &.focus {
+      @include tab-focus;
+      outline: none;
+    }
+  }
+
+  &:hover,
+  &:focus,
+  &.focus {
+    color: $btn-default-color;
+    text-decoration: none;
+  }
+
+  &:active,
+  &.active {
+    outline: 0;
+    background-image: none;
+    @include box-shadow(none);
+  }
+
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    cursor: $cursor-disabled;
+    @include opacity(.65);
+    @include box-shadow(none);
+  }
+
+  i.fa {
+    font-size: $font-size-base;
+    margin-right: 10px;
+  }
+
+  @include media-width(1152px) {
+    @include button-size($padding-medium-vertical, $padding-medium-horizontal, $font-size-xsmall, $line-height-md, $btn-border-radius-base);
+  }
+
+  @include media-width(992px) {
+    @include button-size($padding-small-vertical, $padding-medium-horizontal, $font-size-xsmall, $line-height-md, $btn-border-radius-base);
+  }
+}
+
+.btn-default {
+  @include button-size($padding-xlarge-vertical, $padding-xlarge-horizontal, $font-size-small, $line-height-md, $btn-border-radius-base);
+  @include button-variants($btn-default-color, $btn-default-bg, $btn-default-border);
+}
+// primary appears as purple / pink
+.btn-primary {
+  @include button-variants($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+}
+// Success appears as white
+.btn-success {
+  @include button-variants($btn-success-color, $btn-success-bg, $btn-success-border);
+  padding: ($padding-base-vertical + 2) 65px $padding-base-vertical;
+  font-size: $font-size-base;
+  font-weight: $font-extra-bold;
+
+  @include media-width(992px) {
+    padding: ($padding-base-vertical) 50px $padding-base-vertical;
+    font-size: $font-size-small;
+  }
+}
+// Info appears as gray
+.btn-info {
+  @include button-variants($btn-info-color, $btn-info-bg, $btn-info-border);
+}
+// Warning appears as as purple / pink
+.btn-warning {
+  @include button-variants($btn-warning-color, $btn-warning-bg, $btn-warning-border);
+  padding: ($padding-base-vertical + 2) 65px $padding-base-vertical;
+  font-size: $font-size-base;
+  font-weight: $font-extra-bold;
+
+  @include media-width(992px) {
+    padding: ($padding-base-vertical) 50px $padding-base-vertical;
+    font-size: $font-size-small;
+  }
+}
+// Danger and error appear as red
+.btn-danger {
+  @include button-variants($btn-danger-color, $btn-danger-bg, $btn-danger-border);
+}
+
+.btn-large {
+  padding: $padding-xlarge-vertical $padding-large-horizontal * 8;
+  font-size: $font-size-base;
+
+  @include media-width(1152px) {
+    padding: $padding-large-vertical $padding-large-horizontal * 6;
+  }
+
+  @include media-width(992px) {
+    padding: $padding-medium-vertical $padding-large-horizontal * 4;
+  }
+
+  @include media-width(768px) {
+    padding: $padding-base-vertical $padding-large-horizontal * 3;
+    font-size: $font-size-small;
+  }
+}
+.btn-wide {
+  padding: $padding-large-vertical $padding-large-horizontal * 4;
+
+  @include media-width(1152px) {
+    padding: $padding-medium-vertical $padding-large-horizontal * 3;
+  }
+}
+
+.btn-medium {
+  padding: $padding-large-vertical $padding-large-horizontal * 2;
+  font-size: $font-size-base;
+  
+  @include media-width(1152px) {
+    padding: $padding-medium-vertical $padding-large-horizontal * 1.5;
+    font-size: $font-size-small;
+  }
+
+  @include media-width(992px) {
+    padding: $padding-base-vertical $padding-large-horizontal;
+    font-size: $font-size-small;
+  }
+}
+
+.btn-small {
+  padding: $padding-small-vertical $padding-small-horizontal;
+
+  @include media-width(1152px) {
+    padding: $padding-medium-vertical $padding-large-horizontal * 3;
+  }
+}

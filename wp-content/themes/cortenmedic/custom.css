@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-03-28, 21:29:54
+    Author     : Marcin
+*/
+
+.eu-image{
+  float: left;
+}
+button.aicon_link{
+  position:relative;
+  left: auto;
+}
+button.aicon_link img{
+  width: 30px;
+}
+#wp_access_helper_container button.aicon_link{
+  display: none;
+}
+body .accessability_container.dark_theme.accessability_container.active, body .accessability_container.dark_theme #access_container, body .accessability_container.dark_theme .access_container_inner, body .accessability_container.dark_theme .a_module, body .accessability_container.dark_theme .a_module_title, body .accessability_container.dark_theme .a_module_exe, body .accessability_container.dark_theme .font_resizer a, body .accessability_container.dark_theme .contrast_trigger,
+body .accessability_container button.wah-action-button{
+  background: #a70068 !important;
+}
+
+.accessability_container button.close_container{
+  background: #7f7f83 !important;
+}
+.wpcf7-form .form-submit-row .form-group{
+  text-align: center;
+}

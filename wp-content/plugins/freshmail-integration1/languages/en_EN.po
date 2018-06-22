@@ -1,0 +1,1124 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp_freshmail\n"
+"POT-Creation-Date: 2015-06-29 10:49+0100\n"
+"PO-Revision-Date: 2015-06-29 10:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../src/Plugin/Newsletter/Freshmail.php:21
+msgid "Keys can be only alphanumeric type!"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:167
+#: ../src/Plugin/Newsletter/Widget/FreshmailWidget.php:9
+msgid "FreshMail"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:173
+msgid "New form"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:174
+msgid "Checkboxes"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:178 ../templates/admin_reports.php:2
+msgid "Reports"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:179
+msgid "Connect"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:179
+msgid "Settings"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:529
+#: ../templates/form_messages.php:10
+msgid "Subscribe to our newsletter"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:530
+#: ../templates/form_messages.php:24
+msgid "Get updates direct to your inbox."
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:531
+#: ../templates/form_messages.php:29
+msgid "Send me your newsletter (you can unsubscribe at any time)."
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:532
+#: ../templates/form_messages.php:34
+msgid "Sign me up!"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:533
+#: ../templates/form_messages.php:43
+msgid "Your sign up request was successful! Please check your email inbox."
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:534
+#: ../templates/form_messages.php:48
+msgid "Oops. Something went wrong. Please try again later."
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:535
+#: ../templates/form_messages.php:54
+msgid "Given email address is already subscribed, thank you!"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:536
+#: ../templates/form_messages.php:60
+msgid "Please provide a valid email address"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:537
+#: ../templates/form_messages.php:65
+msgid "Please fill all the required fields"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:563
+msgid "The Sign Up Form has been updated!"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:582
+msgid "The Sign Up Form has been added!"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:582
+msgid "Show"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:704
+msgid "There are no added an email via the sign up form!"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:752
+#: ../src/Plugin/Newsletter/Freshmail.php:785
+#: ../src/Plugin/Newsletter/Freshmail.php:786
+#: ../src/Plugin/Newsletter/Freshmail.php:788
+#: ../src/Plugin/Newsletter/Freshmail.php:810
+#: ../templates/admin_reports.php:100 ../templates/admin_reports.php:101
+msgid "Total subscriptions"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:753
+#: ../src/Plugin/Newsletter/Freshmail.php:772
+#: ../src/Plugin/Newsletter/Freshmail.php:773
+#: ../src/Plugin/Newsletter/Freshmail.php:775
+#: ../src/Plugin/Newsletter/Freshmail.php:811
+#: ../templates/admin_reports.php:109 ../templates/admin_reports.php:110
+msgid "Using Form"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:754
+#: ../src/Plugin/Newsletter/Freshmail.php:778
+#: ../src/Plugin/Newsletter/Freshmail.php:779
+#: ../src/Plugin/Newsletter/Freshmail.php:781
+#: ../src/Plugin/Newsletter/Freshmail.php:812
+#: ../templates/admin_reports.php:119 ../templates/admin_reports.php:120
+msgid "Using Checkbox"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:828
+#: ../src/Plugin/Newsletter/Freshmail.php:892
+#: ../templates/admin_reports.php:88
+msgid "Sign-Up Form"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:936
+msgid "Deleted"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:950
+msgid "The Sign Up Checkboxes has been updated!"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:988
+#: ../templates/admin_checkboxes.php:40
+msgid "Comment Form"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:1010
+#: ../templates/admin_checkboxes.php:49
+msgid "Registration Form"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:1027
+#: ../templates/admin_checkboxes.php:59
+msgid "WooCommerce Checkout"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:1044
+msgid "Easy Digital Download Checkout "
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:1086
+msgid "bbPress new topic"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:1105
+msgid "bbPress new reply"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:1142
+#: ../src/Plugin/Newsletter/Freshmail.php:1158
+msgid "Multisite Form"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:1187
+#: ../templates/admin_checkboxes.php:99
+msgid "BuddyPress registration"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:1211
+#: ../templates/admin_checkboxes.php:123 ../templates/form_appearance.php:68
+#: ../templates/form_appearance.php:109 ../templates/form_appearance.php:289
+#: ../templates/form_appearance.php:296 ../templates/form_properties.php:10
+#: ../templates/form_properties.php:31
+msgid "Yes"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:1211
+#: ../templates/admin_checkboxes.php:126 ../templates/form_appearance.php:69
+#: ../templates/form_appearance.php:110 ../templates/form_appearance.php:290
+#: ../templates/form_appearance.php:297 ../templates/form_properties.php:13
+#: ../templates/form_properties.php:33
+msgid "No"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Freshmail.php:1213
+#: ../templates/admin_checkboxes.php:110
+msgid "Contact form 7"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Widget/FreshmailWidget.php:9
+msgid "A widget that displays the FreshMail sign up Forms"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Widget/FreshmailWidget.php:42
+msgid "newsletter"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Widget/FreshmailWidget.php:44
+msgid "Title:"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Widget/FreshmailWidget.php:49
+#: ../src/Plugin/Newsletter/Widget/FreshmailWidget.php:51
+#: ../templates/admin_all_forms_page.php:32
+msgid "Sign Up Form"
+msgstr ""
+
+#: ../src/Plugin/Newsletter/Widget/FreshmailWidget.php:55
+msgid ""
+"There are no form. <a href=\"admin.php?page=freshmail_add_new_form\">Add "
+"first</a>."
+msgstr ""
+
+#: ../templates/admin_all_forms_page.php:2
+msgid "Add New Form"
+msgstr ""
+
+#: ../templates/admin_all_forms_page.php:8
+#: ../templates/admin_all_forms_page.php:18
+#: ../templates/admin_checkboxes.php:34
+msgid "Form"
+msgstr ""
+
+#: ../templates/admin_all_forms_page.php:9
+#: ../templates/admin_all_forms_page.php:19
+msgid "Contact List"
+msgstr ""
+
+#: ../templates/admin_all_forms_page.php:10
+#: ../templates/admin_all_forms_page.php:20
+msgid "Number of Subscribers"
+msgstr ""
+
+#: ../templates/admin_all_forms_page.php:11
+#: ../templates/admin_all_forms_page.php:21
+msgid "Pop-up"
+msgstr ""
+
+#: ../templates/admin_all_forms_page.php:12
+#: ../templates/admin_all_forms_page.php:22
+msgid "Shortcode"
+msgstr ""
+
+#: ../templates/admin_all_forms_page.php:13
+#: ../templates/admin_all_forms_page.php:23
+msgid "Last edited"
+msgstr ""
+
+#: ../templates/admin_all_forms_page.php:35
+msgid "Edit Form"
+msgstr ""
+
+#: ../templates/admin_all_forms_page.php:36
+msgid "Duplicate"
+msgstr ""
+
+#: ../templates/admin_all_forms_page.php:37
+msgid "Delete"
+msgstr ""
+
+#: ../templates/admin_all_forms_page.php:50
+msgid ""
+"Drag & drop the FreshMail Form to the sidebar on the <a href=\"widgets.php"
+"\">Appearance > Widgets</a> page."
+msgstr ""
+
+#: ../templates/admin_all_forms_page.php:51
+msgid ""
+"Use a shortcode, for example: <input type=\"text\" value=\"[FM_form "
+"id=&quot;1&quot;]\" /> to display the selected form inside a post, page or "
+"text widget."
+msgstr ""
+
+#: ../templates/admin_checkboxes.php:2
+msgid "Sign Up Checkboxes"
+msgstr ""
+
+#: ../templates/admin_checkboxes.php:5
+msgid ""
+"Thanks to this function you can easily add a checkbox to different forms so "
+"users can sign up for a newsletter while completing other actions on the "
+"website, for example while commenting."
+msgstr ""
+
+#: ../templates/admin_checkboxes.php:10 ../templates/admin_new_form_page.php:7
+#: ../templates/form_fields.php:8
+msgid "Select a FreshMail List"
+msgstr ""
+
+#: ../templates/admin_checkboxes.php:13
+msgid "Select..."
+msgstr ""
+
+#: ../templates/admin_checkboxes.php:23
+msgid ""
+"Select the recipients list to which you would like to add new email addresses"
+msgstr ""
+
+#: ../templates/admin_checkboxes.php:28
+msgid "Checkbox Settings"
+msgstr ""
+
+#: ../templates/admin_checkboxes.php:30
+msgid ""
+"Select where you want to add checkboxes (find out which plug-ins could be "
+"integrated with ours). <br />Customise checkbox label text. HTML tags like "
+"<span class=\"fm_code\">&lt;strong&gt; &lt;em&gt; &lt;a&gt;</span> are "
+"allowed."
+msgstr ""
+
+#: ../templates/admin_checkboxes.php:35
+msgid "Checkbox label text"
+msgstr ""
+
+#: ../templates/admin_checkboxes.php:43 ../templates/admin_checkboxes.php:52
+#: ../templates/admin_checkboxes.php:62 ../templates/admin_checkboxes.php:72
+msgid "Yes, sign me up for the free newsletter!"
+msgstr ""
+
+#: ../templates/admin_checkboxes.php:69
+msgid "Easy Digital Download Checkout"
+msgstr ""
+
+#: ../templates/admin_checkboxes.php:79
+msgid "bbPress"
+msgstr ""
+
+#: ../templates/admin_checkboxes.php:82
+msgid "Yes, sign me up for the newsletter!"
+msgstr ""
+
+#: ../templates/admin_checkboxes.php:89
+msgid "MultiSite Forms"
+msgstr ""
+
+#: ../templates/admin_checkboxes.php:92 ../templates/admin_checkboxes.php:102
+msgid "Yes, sign me up for the forum newsletter!"
+msgstr ""
+
+#: ../templates/admin_checkboxes.php:113
+msgid ""
+"Use shortcode in your Contact Form 7 mark-up to add a sign-up checkbox to "
+"your CF7 forms"
+msgstr ""
+
+#: ../templates/admin_checkboxes.php:121
+msgid "Default checkbox selected?"
+msgstr ""
+
+#: ../templates/admin_checkboxes.php:132
+#: ../templates/admin_connect_page.php:30 ../templates/form_appearance.php:439
+#: ../templates/form_messages.php:69 ../templates/form_properties.php:211
+msgid "Save changes"
+msgstr ""
+
+#: ../templates/admin_connect_page.php:2
+msgid "Connect to FreshMail"
+msgstr ""
+
+#: ../templates/admin_connect_page.php:5
+msgid "Logged to FreshMail account."
+msgstr ""
+
+#: ../templates/admin_connect_page.php:7
+msgid "Log Out"
+msgstr ""
+
+#: ../templates/admin_connect_page.php:11
+msgid ""
+"Hello! Start using this plug-in by connecting to your FreshMail account. "
+"Find out <a href=\"http://freshmail.com/help-and-knowledge/help/account-"
+"settings/what-is-an-api-key-and-where-can-you-find-it/\" target=\"_blank"
+"\">where to find API Keys</a>."
+msgstr ""
+
+#: ../templates/admin_connect_page.php:15
+msgid "API Key"
+msgstr ""
+
+#: ../templates/admin_connect_page.php:22
+msgid "API Secret Key"
+msgstr ""
+
+#: ../templates/admin_connect_page.php:38
+msgid ""
+"Check your API key and API Secret Key <a href=\"https://app.freshmail.com/en/"
+"settings/integration/\">here</a>"
+msgstr ""
+
+#: ../templates/admin_connect_page.php:45
+msgid "You don't have a FreshMail account yet?"
+msgstr ""
+
+#: ../templates/admin_connect_page.php:46
+msgid ""
+"<a href=\"http://freshmail.com/\" target=\"_blank\">FreshMail</a> is an "
+"email marketing tool for creating and sending amazing newsletters. Our "
+"intuitive system leads users from campaign planning and creation to final "
+"reports."
+msgstr ""
+
+#: ../templates/admin_connect_page.php:47
+msgid ""
+"A free account lets you send up to 2000 messages to a maximum of 500 "
+"recipients each month."
+msgstr ""
+
+#: ../templates/admin_connect_page.php:48
+msgid ""
+"<a href=\"https://app.freshmail.com/#register-tab\" target=\"_blank\" class="
+"\"button button_fm\">Sign Up For Free!</a> or <a href=\"http://freshmail.com"
+"\">Learn more</a>"
+msgstr ""
+
+#: ../templates/admin_connect_page.php:49
+msgid "No credit card required"
+msgstr ""
+
+#: ../templates/admin_connect_page.php:56
+msgid "Delete all options and tables from database during uninstall."
+msgstr ""
+
+#: ../templates/admin_connect_page.php:59
+msgid "Save settings"
+msgstr ""
+
+#: ../templates/admin_edit_form_page.php:23
+msgid "Freshmail"
+msgstr ""
+
+#: ../templates/admin_edit_form_page.php:27
+msgid "Properties"
+msgstr ""
+
+#: ../templates/admin_edit_form_page.php:28
+msgid "Appearance"
+msgstr ""
+
+#: ../templates/admin_edit_form_page.php:29
+msgid "Messages"
+msgstr ""
+
+#: ../templates/admin_edit_form_page.php:30
+msgid "List &amp; Fields"
+msgstr ""
+
+#: ../templates/admin_new_form_page.php:2
+msgid "Sign Up Forms"
+msgstr ""
+
+#: ../templates/admin_new_form_page.php:4 ../templates/form_fields.php:3
+msgid ""
+"Select the recipient list to which you would like to add the new subscribers "
+"gained from the sign-up form."
+msgstr ""
+
+#: ../templates/admin_new_form_page.php:9 ../templates/form_fields.php:10
+msgid "Select list"
+msgstr ""
+
+#: ../templates/admin_new_form_page.php:21 ../templates/form_fields.php:24
+msgid ""
+"Mark the fields that a new subscriber must fill in when signing up for a "
+"newsletter using the form."
+msgstr ""
+
+#: ../templates/admin_new_form_page.php:23
+msgid "Add form"
+msgstr ""
+
+#: ../templates/admin_reports.php:7
+msgid "Today"
+msgstr ""
+
+#: ../templates/admin_reports.php:8
+msgid "Yesterday"
+msgstr ""
+
+#: ../templates/admin_reports.php:9
+msgid "Last Week"
+msgstr ""
+
+#: ../templates/admin_reports.php:10
+msgid "Last Month"
+msgstr ""
+
+#: ../templates/admin_reports.php:11
+msgid "Last Quarter"
+msgstr ""
+
+#: ../templates/admin_reports.php:12
+msgid "Last Year"
+msgstr ""
+
+#: ../templates/admin_reports.php:13
+msgid "Custom"
+msgstr ""
+
+#: ../templates/admin_reports.php:16
+msgid "From:"
+msgstr ""
+
+#: ../templates/admin_reports.php:25 ../templates/admin_reports.php:53
+msgid "Jan"
+msgstr ""
+
+#: ../templates/admin_reports.php:26 ../templates/admin_reports.php:54
+msgid "Feb"
+msgstr ""
+
+#: ../templates/admin_reports.php:27 ../templates/admin_reports.php:55
+msgid "Mar"
+msgstr ""
+
+#: ../templates/admin_reports.php:28 ../templates/admin_reports.php:56
+msgid "Apr"
+msgstr ""
+
+#: ../templates/admin_reports.php:29 ../templates/admin_reports.php:57
+msgid "May"
+msgstr ""
+
+#: ../templates/admin_reports.php:30 ../templates/admin_reports.php:58
+msgid "Jun"
+msgstr ""
+
+#: ../templates/admin_reports.php:31 ../templates/admin_reports.php:59
+msgid "Jul"
+msgstr ""
+
+#: ../templates/admin_reports.php:32 ../templates/admin_reports.php:60
+msgid "Aug"
+msgstr ""
+
+#: ../templates/admin_reports.php:33 ../templates/admin_reports.php:61
+msgid "Sep"
+msgstr ""
+
+#: ../templates/admin_reports.php:34 ../templates/admin_reports.php:62
+msgid "Oct"
+msgstr ""
+
+#: ../templates/admin_reports.php:35 ../templates/admin_reports.php:63
+msgid "Nov"
+msgstr ""
+
+#: ../templates/admin_reports.php:36 ../templates/admin_reports.php:64
+msgid "Dec"
+msgstr ""
+
+#: ../templates/admin_reports.php:45
+msgid "To:"
+msgstr ""
+
+#: ../templates/admin_reports.php:78
+msgid "Most Popular Forms & Checkboxes"
+msgstr ""
+
+#: ../templates/admin_reports.php:132
+msgid "Most Popular Sources"
+msgstr ""
+
+#: ../templates/ajax_get_freshmail_fields.php:2
+msgid "Select a FreshMail List to view fields."
+msgstr ""
+
+#: ../templates/ajax_get_freshmail_fields.php:5
+#: ../templates/form_fields.php:30
+msgid "Field name"
+msgstr ""
+
+#: ../templates/ajax_get_freshmail_fields.php:6
+#: ../templates/form_fields.php:31
+msgid "Text on the Form"
+msgstr ""
+
+#: ../templates/ajax_get_freshmail_fields.php:7
+#: ../templates/form_fields.php:32
+msgid "Placeholder on the Form"
+msgstr ""
+
+#: ../templates/ajax_get_freshmail_fields.php:8
+#: ../templates/form_fields.php:33
+msgid "Required"
+msgstr ""
+
+#: ../templates/ajax_get_freshmail_fields.php:9
+#: ../templates/form_fields.php:34
+msgid "Include"
+msgstr ""
+
+#: ../templates/ajax_get_freshmail_fields.php:16
+#: ../templates/ajax_get_freshmail_fields.php:18
+#: ../templates/ajax_get_freshmail_fields.php:21
+#: ../templates/form_fields.php:40 ../templates/form_fields.php:42
+msgid "Email"
+msgstr ""
+
+#: ../templates/footer.php:5
+msgid "Looking for support?"
+msgstr ""
+
+#: ../templates/footer.php:7
+msgid ""
+"Make sure to look at the <a href=\"http://freshmail.com/plugin/wordpress-"
+"newsletter/\" target=\"_blank\">plugin Manual</a>"
+msgstr ""
+
+#: ../templates/footer.php:8
+msgid ""
+"Use the <a href=\"https://wordpress.org/support/plugin/freshmail-newsletter"
+"\">support forums</a> on WordPress.org"
+msgstr ""
+
+#: ../templates/footer.php:9
+msgid ""
+"Still need help? <a href=\"http://freshmail.com/contact/\" target=\"_blank"
+"\">Contact us</a>"
+msgstr ""
+
+#: ../templates/footer.php:16
+msgid "Support us"
+msgstr ""
+
+#: ../templates/footer.php:18
+msgid ""
+"<a href=\"https://wordpress.org/support/view/plugin-reviews/freshmail-"
+"newsletter?filter=5\">Leave a &#9733;&#9733;&#9733;&#9733;&#9733; plugin "
+"review</a> on WordPress.org"
+msgstr ""
+
+#: ../templates/footer.php:19
+msgid ""
+"<a href=\"https://twitter.com/home?status=I%20have%20been%20using%20great"
+"%20newsletter%20plugin%20for%20WordPress%20from%20@FreshMail_APP.%20Check"
+"%20it%20out!%20http://freshmail.com/plugin/wordpress-newsletter/\" target="
+"\"_blank\">Tweet about FreshMail</a>"
+msgstr ""
+
+#: ../templates/footer.php:20
+msgid ""
+"Review the plugin on your blog and <a href=\"http://freshmail.com/plugin/"
+"wordpress-newsletter/\" target=\"_blank\">link to the plugin page</a>"
+msgstr ""
+
+#: ../templates/form_appearance.php:4
+msgid "Theme Editor"
+msgstr ""
+
+#: ../templates/form_appearance.php:9
+msgid "Form Container"
+msgstr ""
+
+#: ../templates/form_appearance.php:14
+msgid "Form width"
+msgstr ""
+
+#: ../templates/form_appearance.php:23 ../templates/form_appearance.php:369
+#: ../templates/form_appearance.php:396
+msgid "Background color"
+msgstr ""
+
+#: ../templates/form_appearance.php:28 ../templates/form_appearance.php:239
+#: ../templates/form_appearance.php:375 ../templates/form_appearance.php:402
+msgid "Border color"
+msgstr ""
+
+#: ../templates/form_appearance.php:34 ../templates/form_appearance.php:247
+#: ../templates/form_appearance.php:381
+msgid "Border width"
+msgstr ""
+
+#: ../templates/form_appearance.php:40 ../templates/form_appearance.php:387
+msgid "Rounded corners"
+msgstr ""
+
+#: ../templates/form_appearance.php:46
+msgid "Vertical padding"
+msgstr ""
+
+#: ../templates/form_appearance.php:52
+msgid "Horizontal padding"
+msgstr ""
+
+#: ../templates/form_appearance.php:61
+msgid "Text Header"
+msgstr ""
+
+#: ../templates/form_appearance.php:66
+msgid "Display header text?"
+msgstr ""
+
+#: ../templates/form_appearance.php:73 ../templates/form_appearance.php:113
+#: ../templates/form_appearance.php:161 ../templates/form_appearance.php:225
+#: ../templates/form_appearance.php:301 ../templates/form_appearance.php:365
+#: ../templates/form_appearance.php:408
+msgid "Text color"
+msgstr ""
+
+#: ../templates/form_appearance.php:79 ../templates/form_appearance.php:117
+#: ../templates/form_appearance.php:167 ../templates/form_appearance.php:232
+#: ../templates/form_appearance.php:305 ../templates/form_appearance.php:360
+msgid "Text size"
+msgstr ""
+
+#: ../templates/form_appearance.php:85 ../templates/form_appearance.php:123
+#: ../templates/form_appearance.php:310
+msgid "Text alignment"
+msgstr ""
+
+#: ../templates/form_appearance.php:88 ../templates/form_appearance.php:126
+#: ../templates/form_appearance.php:313 ../templates/form_appearance.php:352
+msgid "select alignment..."
+msgstr ""
+
+#: ../templates/form_appearance.php:89 ../templates/form_appearance.php:127
+#: ../templates/form_appearance.php:314 ../templates/form_appearance.php:353
+msgid "Left"
+msgstr ""
+
+#: ../templates/form_appearance.php:90 ../templates/form_appearance.php:128
+#: ../templates/form_appearance.php:315 ../templates/form_appearance.php:354
+msgid "Center"
+msgstr ""
+
+#: ../templates/form_appearance.php:91 ../templates/form_appearance.php:129
+#: ../templates/form_appearance.php:316 ../templates/form_appearance.php:355
+msgid "Right"
+msgstr ""
+
+#: ../templates/form_appearance.php:101
+msgid "Sub-Header"
+msgstr ""
+
+#: ../templates/form_appearance.php:107
+msgid "Display sub header?"
+msgstr ""
+
+#: ../templates/form_appearance.php:138
+msgid "Label"
+msgstr ""
+
+#: ../templates/form_appearance.php:143
+msgid "Label width"
+msgstr ""
+
+#: ../templates/form_appearance.php:146 ../templates/form_appearance.php:208
+#: ../templates/form_appearance.php:218 ../templates/form_appearance.php:260
+#: ../templates/form_appearance.php:272 ../templates/form_appearance.php:333
+#: ../templates/form_appearance.php:343 ../templates/form_properties.php:57
+msgid "%"
+msgstr ""
+
+#: ../templates/form_appearance.php:147 ../templates/form_appearance.php:209
+#: ../templates/form_appearance.php:219 ../templates/form_appearance.php:261
+#: ../templates/form_appearance.php:273 ../templates/form_appearance.php:334
+#: ../templates/form_appearance.php:344 ../templates/form_properties.php:58
+msgid "px"
+msgstr ""
+
+#: ../templates/form_appearance.php:152
+msgid "Label position"
+msgstr ""
+
+#: ../templates/form_appearance.php:155
+msgid "New line"
+msgstr ""
+
+#: ../templates/form_appearance.php:156
+msgid "Inline"
+msgstr ""
+
+#: ../templates/form_appearance.php:173
+msgid "Text style"
+msgstr ""
+
+#: ../templates/form_appearance.php:176 ../templates/form_properties.php:191
+msgid "select..."
+msgstr ""
+
+#: ../templates/form_appearance.php:177
+msgid "Normal"
+msgstr ""
+
+#: ../templates/form_appearance.php:178
+msgid "Bold"
+msgstr ""
+
+#: ../templates/form_appearance.php:179
+msgid "Italic"
+msgstr ""
+
+#: ../templates/form_appearance.php:180
+msgid "Bold&Italic"
+msgstr ""
+
+#: ../templates/form_appearance.php:185
+msgid "Display labels"
+msgstr ""
+
+#: ../templates/form_appearance.php:189
+msgid "Display placeholders"
+msgstr ""
+
+#: ../templates/form_appearance.php:199
+msgid "Field"
+msgstr ""
+
+#: ../templates/form_appearance.php:204
+msgid "Field width"
+msgstr ""
+
+#: ../templates/form_appearance.php:214
+msgid "Field height"
+msgstr ""
+
+#: ../templates/form_appearance.php:255
+msgid "Vertical margin"
+msgstr ""
+
+#: ../templates/form_appearance.php:267
+msgid "Horizontal margin"
+msgstr ""
+
+#: ../templates/form_appearance.php:282
+msgid "Checkbox agreement"
+msgstr ""
+
+#: ../templates/form_appearance.php:287
+msgid "Display checkbox?"
+msgstr ""
+
+#: ../templates/form_appearance.php:294
+msgid "Default checked?"
+msgstr ""
+
+#: ../templates/form_appearance.php:324
+msgid "Button"
+msgstr ""
+
+#: ../templates/form_appearance.php:329
+msgid "Button width"
+msgstr ""
+
+#: ../templates/form_appearance.php:339
+msgid "Button height"
+msgstr ""
+
+#: ../templates/form_appearance.php:349
+msgid "Button alignment"
+msgstr ""
+
+#: ../templates/form_appearance.php:393
+msgid "Hovered"
+msgstr ""
+
+#: ../templates/form_appearance.php:417
+msgid "Error & Success Messages"
+msgstr ""
+
+#: ../templates/form_appearance.php:422
+msgid "Error text color"
+msgstr ""
+
+#: ../templates/form_appearance.php:428
+msgid "Success text color"
+msgstr ""
+
+#: ../templates/form_appearance.php:440
+msgid "Save as custom theme"
+msgstr ""
+
+#: ../templates/form_appearance.php:444
+msgid "Select Theme"
+msgstr ""
+
+#: ../templates/form_appearance.php:461
+msgid "Custom theme"
+msgstr ""
+
+#: ../templates/form_appearance.php:467
+msgid "Form Preview"
+msgstr ""
+
+#: ../templates/form_fields.php:45 ../templates/form_fields.php:62
+msgid "Placeholder"
+msgstr ""
+
+#: ../templates/form_fields.php:79
+msgid "Save"
+msgstr ""
+
+#: ../templates/form_messages.php:3
+msgid ""
+"Customise your automatic messages. HTML tags like <span class=\"fm_code"
+"\">&lt;strong&gt; &lt;em&gt; &lt;a&gt;</span> are allowed."
+msgstr ""
+
+#: ../templates/form_messages.php:8
+msgid "Form header"
+msgstr ""
+
+#: ../templates/form_messages.php:14
+msgid "Form sub-header"
+msgstr ""
+
+#: ../templates/form_messages.php:28
+msgid "Checkbox agreement label text"
+msgstr ""
+
+#: ../templates/form_messages.php:32
+msgid "Form subscribe button"
+msgstr ""
+
+#: ../templates/form_messages.php:42
+msgid "Submission success message"
+msgstr ""
+
+#: ../templates/form_messages.php:46
+msgid "Submission failure message"
+msgstr ""
+
+#: ../templates/form_messages.php:52
+msgid "Already subscribed message"
+msgstr ""
+
+#: ../templates/form_messages.php:58
+msgid "Invalid email address message"
+msgstr ""
+
+#: ../templates/form_messages.php:63
+msgid "Required field missing message"
+msgstr ""
+
+#: ../templates/form_properties.php:7
+msgid ""
+"Do you want to hide the sign-up form and pop-up when the process is "
+"completed?"
+msgstr ""
+
+#: ../templates/form_properties.php:18
+msgid "Pop-up Properties"
+msgstr ""
+
+#: ../templates/form_properties.php:21
+msgid ""
+"Pop-up windows are one of the most effective ways of obtaining new email "
+"addresses. At the same time, however, they can be a pushy form of "
+"advertising. That's why we suggest that you use it no more than twice per "
+"user."
+msgstr ""
+
+#: ../templates/form_properties.php:28
+msgid "Show the sign-up form in a pop-up?"
+msgstr ""
+
+#: ../templates/form_properties.php:38
+msgid "When to show a pop-up?"
+msgstr ""
+
+#: ../templates/form_properties.php:41
+msgid "Immediately"
+msgstr ""
+
+#: ../templates/form_properties.php:45 ../templates/form_properties.php:54
+msgid "After"
+msgstr ""
+
+#: ../templates/form_properties.php:48 ../templates/form_properties.php:102
+msgid "seconds"
+msgstr ""
+
+#: ../templates/form_properties.php:49
+msgid "minutes"
+msgstr ""
+
+#: ../templates/form_properties.php:59
+msgid "of the page has been scrolled"
+msgstr ""
+
+#: ../templates/form_properties.php:62
+msgid "Show a pop-up when a user leaves the website"
+msgstr ""
+
+#: ../templates/form_properties.php:64
+msgid ""
+"Directing a cursor into the upper corner suggests that the user would like "
+"to leave the website. This is the last moment to take action and display the "
+"popup."
+msgstr ""
+
+#: ../templates/form_properties.php:70
+msgid "Don't show pop-ups on mobile phones"
+msgstr ""
+
+#: ../templates/form_properties.php:72
+msgid ""
+"It's hard to close a pop-up on mobile phones, that's why it's better not to "
+"annoy your users."
+msgstr ""
+
+#: ../templates/form_properties.php:77
+msgid "Don't show on specified UTM tag"
+msgstr ""
+
+#: ../templates/form_properties.php:88
+msgid "The maximum number of pop-up displays per user"
+msgstr ""
+
+#: ../templates/form_properties.php:92
+msgid "No limit"
+msgstr ""
+
+#: ../templates/form_properties.php:100
+msgid "Lag time between displays"
+msgstr ""
+
+#: ../templates/form_properties.php:106
+msgid "Select pages where popups will be displayed"
+msgstr ""
+
+#: ../templates/form_properties.php:111
+msgid "Pages"
+msgstr ""
+
+#: ../templates/form_properties.php:113 ../templates/form_properties.php:129
+#: ../templates/form_properties.php:154
+msgid "Set all"
+msgstr ""
+
+#: ../templates/form_properties.php:116 ../templates/form_properties.php:132
+#: ../templates/form_properties.php:157
+msgid "Unset all"
+msgstr ""
+
+#: ../templates/form_properties.php:127
+msgid "Posts"
+msgstr ""
+
+#: ../templates/form_properties.php:152
+msgid "Products"
+msgstr ""
+
+#: ../templates/form_properties.php:173
+msgid "Redirection After Sign Up"
+msgstr ""
+
+#: ../templates/form_properties.php:175
+msgid "Where do you want to redirect the user after a successful sign up?"
+msgstr ""
+
+#: ../templates/form_properties.php:181
+msgid "No redirection"
+msgstr ""
+
+#: ../templates/form_properties.php:187
+msgid "WordPress page"
+msgstr ""
+
+#: ../templates/form_properties.php:200
+msgid "Custom URL"
+msgstr ""
+
+#: ../templates/form_properties.php:204
+msgid "Check page"
+msgstr ""
+
+#: ../wp-freshmail.php:116
+msgid "Black_and_white"
+msgstr ""
+
+#: ../wp-freshmail.php:193
+msgid "Yellow"
+msgstr ""
+
+#: ../wp-freshmail.php:270
+msgid "Grey"
+msgstr ""
+
+#: ../wp-freshmail.php:347
+msgid "Blue"
+msgstr ""
+
+#: ../wp-freshmail.php:424
+msgid "White_and_Red"
+msgstr ""
+
+#: ../wp-freshmail.php:501
+msgid "Green"
+msgstr ""
+
+#: ../wp-freshmail.php:578
+msgid "Black"
+msgstr ""
+
+#: ../wp-freshmail.php:655
+msgid "green_only_placeholders"
+msgstr ""
+
+#: ../wp-freshmail.php:732
+msgid "black_only_placeholders"
+msgstr ""
+
+#: ../wp-freshmail.php:809
+msgid "blue_only_placeholders"
+msgstr ""

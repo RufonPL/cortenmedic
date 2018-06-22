@@ -1,0 +1,159 @@
+//
+// Panels
+// --------------------------------------------------
+
+
+// Base class
+.panel {
+  margin-bottom: $line-height-computed;
+  background-color: $panel-bg;
+  border: none;
+  border-radius: $panel-border-radius;
+  @include box-shadow(0 1px 1px rgba(0,0,0,0));
+}
+
+// Panel contents
+.panel-body {
+  padding: $panel-body-padding;
+  @include clearfix;
+  
+  @include media-width(640px) {
+    padding: 10px;
+  }
+}
+
+// Optional heading
+.panel-heading {
+  padding: 0;
+  border-bottom: none;
+  @include border-top-radius(($panel-border-radius - 1));
+  transition: all 0.3s ease-in-out;
+
+  > .dropdown .dropdown-toggle {
+    color: inherit;
+  }
+}
+
+// Within heading, strip any `h*` tag of its default margins for spacing.
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: $font-extra-bold;
+  font-size: $font-size-base;
+  color: inherit;
+  transition: all 0.3s ease-in-out;
+
+  > a {
+    position: relative;
+    display: block;
+    padding: $panel-heading-padding;
+    line-height: 18px;
+    text-decoration: none;
+
+    &:after {
+      @include absolute-center-vertical();
+      right: 10px;
+      color: $theme-color;
+      font-family: 'FontAwesome';
+      content: '\f107';
+      font-size: 18px;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+
+  > a,
+  > small,
+  > .small,
+  > small > a,
+  > .small > a {
+    color: inherit;
+  }
+}
+
+
+// Collapsible panels (aka, accordion)
+//
+// Wrap a series of panels in `.panel-group` to turn them into an accordion with
+// the help of our collapse JavaScript plugin.
+
+.panel-group {
+  margin-bottom: 0;
+
+  // Tighten up margin so it's only between panels
+  .panel {
+    margin-bottom: 0;
+    border-radius: $panel-border-radius;
+
+    + .panel {
+      margin-top: 5px;
+    }
+  }
+
+  .panel-heading {
+    border-bottom: 0;
+
+    + .panel-collapse > .panel-body,
+    + .panel-collapse > .list-group {
+      border-top: none;
+    }
+  }
+
+  .panel-footer {
+    border-top: 0;
+    + .panel-collapse .panel-body {
+      border-bottom: none;
+    }
+  }
+}
+
+
+// Contextual variations
+.panel-default {
+  @include panel-variant($panel-default-border, $panel-default-text, $panel-default-heading-bg, $panel-default-border);
+
+  > .panel-heading {
+    
+    &:hover,
+    &.active {
+      background-color: $theme-color;
+
+      .panel-title {
+        color: $white;
+
+        a {
+          &:after {
+            color: $white;
+          }
+        }
+      }
+    }
+
+    &.active {
+
+      .panel-title {
+
+        a {
+          &:after {
+            content: '\f106';
+          }
+        }
+      }
+    }
+  }
+  
+}
+.panel-primary {
+  @include panel-variant($panel-primary-border, $panel-primary-text, $panel-primary-heading-bg, $panel-primary-border);
+}
+.panel-success {
+  @include panel-variant($panel-success-border, $panel-success-text, $panel-success-heading-bg, $panel-success-border);
+}
+.panel-info {
+  @include panel-variant($panel-info-border, $panel-info-text, $panel-info-heading-bg, $panel-info-border);
+}
+.panel-warning {
+  @include panel-variant($panel-warning-border, $panel-warning-text, $panel-warning-heading-bg, $panel-warning-border);
+}
+.panel-danger {
+  @include panel-variant($panel-danger-border, $panel-danger-text, $panel-danger-heading-bg, $panel-danger-border);
+}
